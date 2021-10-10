@@ -30,5 +30,10 @@ public class Car {
         wheels = anotherCar.wheels;
         power = anotherCar.power;
     }
+
+    @Override
+    public String toString() {
+        return ("SMT");
+    }
 }
 
